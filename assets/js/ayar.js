@@ -10,13 +10,14 @@ window.KESIF_AYAR = {
 
   // Anasayfada gösterilecek departmanlar (assets/js/anketler/<id>.js dosyaları), bu sırayla.
   // Aynı "alan"daki departmanlar art arda yazılır; anasayfada alan başlığı altında toplanırlar.
+  // Europap Tezol tepe organizasyonları (Organizasyon Grupları listesi). "Stajyerler" ve
+  // "Tanımlanmayı bekleyen birimler" ayrı departman değildir; stajyerler çalıştıkları birimi seçer.
   departmanlar: [
-    "finans", "muhasebe", "kontrol",
-    "satis", "satinalma", "depo", "disticaret",
-    "uretim", "kalite", "bakim",
-    "ik",
-    "sap",
-    "bt", "proje"
+    "yonetim", "yatirim",
+    "pm", "converting", "planlama",
+    "bakim", "cevre", "kalite",
+    "satinalma", "depo", "satis",
+    "finans", "ik", "bt"
   ],
 
   // Detaylandırılacak operasyon sayısı sınırları.

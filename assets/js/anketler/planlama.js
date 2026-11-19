@@ -1,10 +1,10 @@
-// SAP karşılığı: PP (Üretim Planlama)
+// SAP karşılığı: PP (Üretim Planlama). Alt birimler: Üretim Planlama, Üretim/Makine Mühendisi, Mühendis ve Amirler, Meydan ve Fire
 window.KESIF_ANKETLER = window.KESIF_ANKETLER || {};
-window.KESIF_ANKETLER.uretim = {
-  id: "uretim",
-  ad: "Üretim ve Planlama",
-  alan: "Üretim ve teknik",
-  aciklama: "Üretim planı, malzeme ihtiyacı, üretim takibi ve raporlama",
+window.KESIF_ANKETLER["planlama"] = {
+  id: "planlama",
+  ad: "Üretim Planlama, Mühendislik ve Üretim Destek",
+  alan: "Üretim",
+  aciklama: "Üretim planlama, üretim ve makine mühendisliği, meydan ve fire",
   gruplar: [
     {
       ad: "Planlama ve çizelgeleme",
@@ -27,22 +27,22 @@ window.KESIF_ANKETLER.uretim = {
       ]
     },
     {
-      ad: "Üretim takibi ve veri toplama",
+      ad: "Mühendislik ve süreç iyileştirme",
       operasyonlar: [
-        { id: "urt-11", ad: "Üretim miktarlarının kâğıt formdan sisteme girilmesi" },
-        { id: "urt-12", ad: "Duruş ve arıza kayıtlarının elle tutulması" },
-        { id: "urt-13", ad: "Fire ve hurda verilerinin toplanması" },
-        { id: "urt-14", ad: "Vardiya raporlarının hazırlanması" },
-        { id: "urt-15", ad: "Üretim emirlerinin açılması, basılması ve kapatılması" }
+        { id: "urt-21", ad: "Reçete ve ürün spesifikasyonlarının güncellenmesi" },
+        { id: "urt-22", ad: "Makine ayar ve standartlarının dokümante edilmesi" },
+        { id: "urt-23", ad: "İyileştirme projeleri ve aksiyonlarının takibi" },
+        { id: "urt-24", ad: "Teknik çizim ve dokümanların arşivlenmesi" },
+        { id: "urt-19", ad: "Yeni ürün devreye alma takibi" }
       ]
     },
     {
-      ad: "Raporlama ve koordinasyon",
+      ad: "Meydan, fire ve raporlama",
       operasyonlar: [
+        { id: "urt-13", ad: "Fire ve hurda verilerinin toplanması" },
+        { id: "urt-25", ad: "Meydan ve fire alanı stoklarının takibi" },
         { id: "urt-16", ad: "Verimlilik ve performans raporlarının Excel'de hazırlanması" },
         { id: "urt-17", ad: "Plan–fiili üretim sapmalarının analizi" },
-        { id: "urt-18", ad: "Kalite ve bakımla günlük koordinasyon" },
-        { id: "urt-19", ad: "Yeni ürün devreye alma takibi" },
         { id: "urt-20", ad: "Üretim maliyeti için veri toplama ve teyit" }
       ]
     }

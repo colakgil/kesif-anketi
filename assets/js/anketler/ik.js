@@ -1,10 +1,10 @@
-// SAP karşılığı: HCM (İnsan Kaynakları)
+// SAP karşılığı: HCM. Alt birimler: İnsan Kaynakları Direktörlüğü, İnsan Kaynakları Yöneticiliği
 window.KESIF_ANKETLER = window.KESIF_ANKETLER || {};
-window.KESIF_ANKETLER.ik = {
+window.KESIF_ANKETLER["ik"] = {
   id: "ik",
   ad: "İnsan Kaynakları",
-  alan: "İnsan kaynakları",
-  aciklama: "Bordro, özlük, işe alım, izin ve eğitim",
+  alan: "Finans ve destek birimleri",
+  aciklama: "Bordro, özlük, işe alım, izin, eğitim ve stajyer süreçleri",
   gruplar: [
     {
       ad: "Bordro ve puantaj",
@@ -33,7 +33,8 @@ window.KESIF_ANKETLER.ik = {
         { id: "ik-12", ad: "Mülakat planlama ve adaylarla yazışma" },
         { id: "ik-13", ad: "Personel talebi ve kadro onaylarının toplanması" },
         { id: "ik-14", ad: "Teklif ve işe başlama sürecinin takibi" },
-        { id: "ik-15", ad: "Oryantasyon programının hazırlanması ve takibi" }
+        { id: "ik-15", ad: "Oryantasyon programının hazırlanması ve takibi" },
+        { id: "ik-21", ad: "Stajyer başvurularının ve staj evraklarının takibi" }
       ]
     },
     {

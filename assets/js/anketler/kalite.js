@@ -1,9 +1,9 @@
-// SAP karşılığı: QM (Kalite Yönetimi)
+// SAP karşılığı: QM (Kalite Yönetimi). Alt birimler: Kalite Kontrol ve Güvence Müdürlüğü, Kalite İzleme ve Operasyon, Kalite Güvence
 window.KESIF_ANKETLER = window.KESIF_ANKETLER || {};
-window.KESIF_ANKETLER.kalite = {
+window.KESIF_ANKETLER["kalite"] = {
   id: "kalite",
-  ad: "Kalite",
-  alan: "Üretim ve teknik",
+  ad: "Kalite Kontrol ve Güvence",
+  alan: "Teknik hizmetler ve kalite",
   aciklama: "Girdi ve proses kontrolü, şikâyetler, belgelendirme ve denetim",
   gruplar: [
     {

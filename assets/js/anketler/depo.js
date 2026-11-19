@@ -1,10 +1,10 @@
-// SAP karşılığı: WM / EWM / LE (Depo Yönetimi ve Lojistik)
+// SAP karşılığı: WM / EWM / LE. Alt birimler: Sevkiyat ve Lojistik Müdürlüğü, Bobin Depo ve Sevkiyat, Depo ve Sevkiyat
 window.KESIF_ANKETLER = window.KESIF_ANKETLER || {};
-window.KESIF_ANKETLER.depo = {
+window.KESIF_ANKETLER["depo"] = {
   id: "depo",
-  ad: "Depo ve Lojistik",
-  alan: "Satış ve tedarik zinciri",
-  aciklama: "Mal kabul, stok, sayım, sevkiyat ve nakliye",
+  ad: "Depo, Sevkiyat ve Lojistik",
+  alan: "Tedarik zinciri ve satış",
+  aciklama: "Bobin ve mamul depo, mal kabul, sayım, sevkiyat ve nakliye",
   gruplar: [
     {
       ad: "Mal kabul ve yerleştirme",

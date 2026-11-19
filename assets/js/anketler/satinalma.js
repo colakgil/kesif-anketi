@@ -1,10 +1,10 @@
-// SAP karşılığı: MM (Malzeme Yönetimi – Satınalma)
+// SAP karşılığı: MM (Satınalma). Alt birimler: Tedarik Zinciri Direktörlüğü, Satın Alma Müdürlüğü, yurt içi/yurt dışı satın alma, Y.D. Alım ve Operasyon
 window.KESIF_ANKETLER = window.KESIF_ANKETLER || {};
-window.KESIF_ANKETLER.satinalma = {
+window.KESIF_ANKETLER["satinalma"] = {
   id: "satinalma",
-  ad: "Satınalma",
-  alan: "Satış ve tedarik zinciri",
-  aciklama: "Talep, teklif, sipariş takibi, tedarikçi ve fatura süreçleri",
+  ad: "Tedarik Zinciri ve Satın Alma",
+  alan: "Tedarik zinciri ve satış",
+  aciklama: "Yurt içi ve yurt dışı satın alma, ithalat, tedarikçi ve fatura süreçleri",
   gruplar: [
     {
       ad: "Talep ve teklif",
@@ -24,6 +24,18 @@ window.KESIF_ANKETLER.satinalma = {
         { id: "sal-08", ad: "Açık siparişlerin Excel'de izlenmesi" },
         { id: "sal-09", ad: "Sipariş değişikliklerinin tedarikçiye bildirilmesi" },
         { id: "sal-10", ad: "Acil ihtiyaçlar için üretim ve planlamayla koordinasyon" }
+      ]
+    },
+    {
+      ad: "Yurt dışı alım ve ithalat",
+      operasyonlar: [
+        { id: "dst-06", ad: "İthalat siparişlerinin ve yüklemelerin takibi" },
+        { id: "dst-07", ad: "Tedarikçi evraklarının kontrolü" },
+        { id: "dst-08", ad: "Gümrük vergi ve masraflarının hesaplanması" },
+        { id: "dst-09", ad: "İthalat maliyet dosyalarının Excel'de hazırlanması" },
+        { id: "dst-10", ad: "Varış ve gümrükleme sürecinin takibi" },
+        { id: "dst-11", ad: "Navlun tekliflerinin toplanması ve karşılaştırılması" },
+        { id: "dst-15", ad: "Liman bekleme sürelerinin ve demuraj masraflarının takibi" }
       ]
     },
     {

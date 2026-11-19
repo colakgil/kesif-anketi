@@ -1,10 +1,10 @@
-// SAP karşılığı: PM (Bakım Yönetimi)
+// SAP karşılığı: PM (Bakım Yönetimi). Alt birimler: Bakım Onarım Müdürlüğü, mekanik ve elektrik-elektronik bakım, enerji, otomasyon, yardımcı tesisler, kazan
 window.KESIF_ANKETLER = window.KESIF_ANKETLER || {};
-window.KESIF_ANKETLER.bakim = {
+window.KESIF_ANKETLER["bakim"] = {
   id: "bakim",
-  ad: "Bakım ve Teknik Hizmetler",
-  alan: "Üretim ve teknik",
-  aciklama: "Arıza, planlı bakım, yedek parça ve dış servis",
+  ad: "Bakım, Onarım, Enerji ve Yardımcı Tesisler",
+  alan: "Teknik hizmetler ve kalite",
+  aciklama: "Mekanik ve elektrik bakım, enerji, otomasyon, kazan ve yardımcı tesisler",
   gruplar: [
     {
       ad: "Arıza ve iş emri",
@@ -27,6 +27,16 @@ window.KESIF_ANKETLER.bakim = {
       ]
     },
     {
+      ad: "Enerji, otomasyon ve yardımcı tesisler",
+      operasyonlar: [
+        { id: "bak-21", ad: "Kazan ve buhar üretim değerlerinin elle kaydedilmesi" },
+        { id: "bak-22", ad: "Elektrik, doğalgaz ve su sayaçlarının okunup kaydedilmesi" },
+        { id: "bak-23", ad: "Basınçlı hava, su ve yardımcı tesis kontrol turlarının takibi" },
+        { id: "bak-24", ad: "Otomasyon (PLC/SCADA) değişiklik ve arıza kayıtlarının takibi" },
+        { id: "bak-19", ad: "Enerji tüketim verilerinin toplanması" }
+      ]
+    },
+    {
       ad: "Yedek parça ve dış hizmet",
       operasyonlar: [
         { id: "bak-11", ad: "Yedek parça ihtiyaçlarının belirlenmesi ve talep edilmesi" },
@@ -42,7 +52,6 @@ window.KESIF_ANKETLER.bakim = {
         { id: "bak-16", ad: "Bakım maliyetlerinin Excel'de raporlanması" },
         { id: "bak-17", ad: "Arıza sıklığı ve duruş analizlerinin hazırlanması" },
         { id: "bak-18", ad: "Ekipman kartlarının ve teknik dokümanların güncellenmesi" },
-        { id: "bak-19", ad: "Enerji tüketim verilerinin toplanması" },
         { id: "bak-20", ad: "Yatırım ve yenileme taleplerinin hazırlanması" }
       ]
     }
